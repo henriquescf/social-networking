@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile__img{
+    height: 3.125rem;
+}
+
+.main-section__newpost{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-newpost__left{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.section-newpost__right{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 100px;
+}
+
+.newpost-left__userdiv, .newpost-right-ul-li__userdiv, .postslist-article__userdiv, .newpost-right-ul__li {
+    display: flex;
+}
+
+.newpost-left-userdiv__userdata, .postslist-article-userdiv__userdata, .newpost-right-ul-li-userdiv__userdata{
+    margin-left: 15px;
+}
+
+.form-post{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-post__description{
+    resize: none;
+    margin: 20px 0px;
+}
+
+.newpost-right-ul__li, .postslist__article, .newpost-left__userdiv{
+    margin: 20px 0px;
+}
+
+.newpost-right-ul__li{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-section__postslist{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 100px;
+}
+
+.postslist-article__userdiv, .postslist-article__text{
+    margin: 40px 0px;
+}
+
+.postslist-article__div{
+    display: flex;
+    align-items: center;
+}
+
+.postslist-article__text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.heart__img{
+    margin: 0px 10px 0px 30px;
+    cursor: pointer;
+}

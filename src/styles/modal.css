@@ -1,0 +1,21 @@
+.modalController{
+    border: solid transparent 2px;
+    border-radius: 14px;
+    width: 75%;
+    height: max-content;
+}
+
+.modalBtn{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 1.25rem;
+    background-color: white;
+    color: var(--quaternary-grey-color);
+    cursor: pointer;
+}
+
+.modalItem p{
+    white-space: normal;
+    text-align: justify;
+}

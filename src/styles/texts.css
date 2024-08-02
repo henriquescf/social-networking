@@ -1,0 +1,24 @@
+body{
+    font-family: var(--font-family);
+}
+
+/* PRIMARY TITLE */
+h1, .main_section_postslist__title, .posts_list_article__title{
+    font: var(--primary-title-font);
+}
+
+/* SECONDARY TITLE */
+h2, .user-data__name{
+    font: var(--secondary-title-font);
+}
+
+/* PRIMARY TEXT */
+.posts_list_article__text{
+    font: var(--primary-text-font);
+}
+
+/* SECONDARY TEXT */
+.user-data__job{
+    font: var(--secondary-text-font);
+    color: var(--tertiary-grey-color);
+}

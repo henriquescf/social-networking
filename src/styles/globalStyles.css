@@ -1,0 +1,25 @@
+:root{
+    /* CORES */
+    --primary-btn-color: #4263EB;
+    --secondary-btn-color: #364FC7;
+
+    --primary-grey-color: #0A0C0D;
+    --secondary-grey-color: #212529;
+    --tertiary-grey-color: #495057;
+    --quaternary-grey-color: #868E96;
+    --quinary-grey-color: #DEE2E6;
+    --senary-grey-color: #F8F9FA;
+    --septenary-grey-color: rgba(33,37,41, 0.5);
+    --primary-white-color: #FFFFFF;
+
+    --like-color: #D7443E;
+
+    /* FONTES */
+    --font-family: Inter;
+    --primary-title-font: 700 1.75rem/2.5rem Inter;
+    --secondary-title-font: 600 1.25rem/1.5rem Inter;
+    --primary-text-font: 400 1rem/1.75rem Inter;
+    --secondary-text-font: 400 0.875rem/1rem Inter;
+    --tertiary-text-font: 400 0.75rem/1rem Inter;
+    --primary-btn-font: 600 0.875rem Inter;
+}

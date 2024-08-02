@@ -1,0 +1,10 @@
+.form-post__title, .form-post__description{
+    font: var(--primary-text-font);
+    color: var(--tertiary-grey-color);
+    border: solid 1px var(--quinary-grey-color);
+    padding: 10px;
+}
+
+.form-post__title:focus, .form-post__description:focus{
+    border-color: var(--secondary-btn-color);
+}

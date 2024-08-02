@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1025px) {
+    .header{
+        justify-content: space-around;
+    }
+
+    .main-section__newpost{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-newpost__left, .section-newpost__right, .main-section__postslist{
+        width: 100%;
+    }
+
+    .section-newpost__right{
+        margin: 50px 0px 0px 0px;
+    }
+
+    .newpost-right__title{
+        margin-bottom: 20px;
+    }
+
+    .newpost-right__ul{
+        display: flex;
+        justify-content: space-between;
+        overflow-x: auto;
+    }
+
+    .newpost-right-ul__li{
+        flex-direction: column;
+        min-width: 250px;
+    }
+
+    .main-section__postslist{
+        margin-top: 50px;
+    }
+
+    .modalController{
+        width: 80%;
+        height: 50%;
+    }
+}

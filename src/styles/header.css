@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-grey-color);
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header__logo, .header__logout{
+    padding: 0px 100px;
+}
+
+.header__logout{
+    font: var(--secondary-text-font);
+    color: var(--quinary-grey-color);
+    cursor: pointer;
+}
